@@ -224,4 +224,5 @@ dependencies:
     - wheel==0.38.4
     - xxhash==0.0.0
     - yarl==1.9.2
+    - gradio
 prefix: /Users/shawhin/opt/anaconda3/envs/ft-env

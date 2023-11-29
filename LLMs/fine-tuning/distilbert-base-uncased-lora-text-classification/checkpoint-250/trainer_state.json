@@ -1,5 +1,5 @@
 {
-  "best_metric": 0.42342880368232727,
+  "best_metric": 0.33337879180908203,
   "best_model_checkpoint": "distilbert-base-uncased-lora-text-classification/checkpoint-250",
   "epoch": 1.0,
   "eval_steps": 500,
@@ -11,12 +11,12 @@
     {
       "epoch": 1.0,
       "eval_accuracy": {
-        "accuracy": 0.876
+        "accuracy": 0.892
       },
-      "eval_loss": 0.42342880368232727,
-      "eval_runtime": 82.6223,
-      "eval_samples_per_second": 12.103,
-      "eval_steps_per_second": 3.026,
+      "eval_loss": 0.33337879180908203,
+      "eval_runtime": 60.9859,
+      "eval_samples_per_second": 16.397,
+      "eval_steps_per_second": 4.099,
       "step": 250
     }
   ],

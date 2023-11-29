@@ -15,10 +15,10 @@ should probably proofread and complete it, then remove this comment. -->
 
 # distilbert-base-uncased-lora-text-classification
 
-This model is a fine-tuned version of [distilbert-base-uncased](https://huggingface.co/distilbert-base-uncased) on the None dataset.
+This model is a fine-tuned version of [distilbert-base-uncased](https://huggingface.co/distilbert-base-uncased) on an unknown dataset.
 It achieves the following results on the evaluation set:
-- Loss: 1.0684
-- Accuracy: {'accuracy': 0.879}
+- Loss: 0.8839
+- Accuracy: {'accuracy': 0.901}
 
 ## Model description
 
@@ -49,21 +49,21 @@ The following hyperparameters were used during training:
 
 | Training Loss | Epoch | Step | Validation Loss | Accuracy            |
 |:-------------:|:-----:|:----:|:---------------:|:-------------------:|
-| No log        | 1.0   | 250  | 0.4266          | {'accuracy': 0.87}  |
-| 0.4232        | 2.0   | 500  | 0.4260          | {'accuracy': 0.88}  |
-| 0.4232        | 3.0   | 750  | 0.5071          | {'accuracy': 0.885} |
-| 0.2213        | 4.0   | 1000 | 0.7424          | {'accuracy': 0.875} |
-| 0.2213        | 5.0   | 1250 | 0.7885          | {'accuracy': 0.881} |
-| 0.067         | 6.0   | 1500 | 0.9312          | {'accuracy': 0.872} |
-| 0.067         | 7.0   | 1750 | 0.9669          | {'accuracy': 0.874} |
-| 0.0238        | 8.0   | 2000 | 1.0856          | {'accuracy': 0.874} |
-| 0.0238        | 9.0   | 2250 | 1.0637          | {'accuracy': 0.88}  |
-| 0.0066        | 10.0  | 2500 | 1.0684          | {'accuracy': 0.879} |
+| No log        | 1.0   | 250  | 0.3334          | {'accuracy': 0.892} |
+| 0.3999        | 2.0   | 500  | 0.3850          | {'accuracy': 0.892} |
+| 0.3999        | 3.0   | 750  | 0.4382          | {'accuracy': 0.895} |
+| 0.2004        | 4.0   | 1000 | 0.5518          | {'accuracy': 0.895} |
+| 0.2004        | 5.0   | 1250 | 0.6261          | {'accuracy': 0.899} |
+| 0.0674        | 6.0   | 1500 | 0.8357          | {'accuracy': 0.892} |
+| 0.0674        | 7.0   | 1750 | 0.8303          | {'accuracy': 0.901} |
+| 0.0301        | 8.0   | 2000 | 0.8756          | {'accuracy': 0.894} |
+| 0.0301        | 9.0   | 2250 | 0.8779          | {'accuracy': 0.897} |
+| 0.0028        | 10.0  | 2500 | 0.8839          | {'accuracy': 0.901} |
 
 
 ### Framework versions
 
-- Transformers 4.32.1
+- Transformers 4.35.2
 - Pytorch 2.0.1
 - Datasets 2.14.4
-- Tokenizers 0.13.2
+- Tokenizers 0.15.0
